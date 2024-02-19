@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+td {
+  font-size: 1.4rem;
+}
+
+td:not(:first-child) {
+  padding: 0 10px 0 10px;
+}
